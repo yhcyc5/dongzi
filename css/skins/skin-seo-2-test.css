@@ -3,11 +3,11 @@ a {
 }
 
 a:hover {
-	color: #e5529b;
+	color: #E9684E;
 }
 
 a:focus {
-	color: #e5529b;
+	color: #E9684E;
 }
 
 a:active {
@@ -539,11 +539,11 @@ html .nav-pills-primary a {
 }
 
 html .nav-pills-primary a:hover {
-	color: #e5529b;
+	color: #E9684E;
 }
 
 html .nav-pills-primary a:focus {
-	color: #e5529b;
+	color: #E9684E;
 }
 
 html .nav-pills-primary a:active {
@@ -777,7 +777,7 @@ html .overlay-color-light:not(.no-skin):before {
 }
 
 .btn-link:hover {
-	color: #e5529b;
+	color: #E9684E;
 }
 
 .btn-link:active {
@@ -1448,7 +1448,7 @@ html .btn-with-arrow.btn-primary.btn-outline {
 }
 
 html .btn-with-arrow.btn-primary.btn-outline:hover span {
-	background-color: #e5529b !important;
+	background-color: #E9684E !important;
 	box-shadow: none;
 }
 
@@ -4320,19 +4320,19 @@ html #header .header-top.header-top-primary {
 }
 
 html #header .header-top.header-top-primary .header-nav-top ul > li.open > a {
-	background: #e5529b;
+	background: #E9684E;
 }
 
 html #header .header-top.header-top-primary .header-nav-top ul > li > a:hover,
 html #header .header-top.header-top-primary .header-nav-top ul > li.open > a:hover,
 html #header .header-top.header-top-primary .header-nav-top ul > li > a:focus,
 html #header .header-top.header-top-primary .header-nav-top ul > li.open > a:focus {
-	background: #e5529b;
+	background: #E9684E;
 }
 
 html #header .header-top.header-top-primary .dropdown-menu {
-	background: #e5529b;
-	border-color: #e5529b;
+	background: #E9684E;
+	border-color: #E9684E;
 }
 
 html #header .header-top.header-top-primary .dropdown-menu a:hover,
@@ -4518,23 +4518,23 @@ html #header .header-top.header-top-light .dropdown-menu a:focus {
 }
 
 .testimonial blockquote {
-	background: #e5529b;
+	background: #E9684E;
 }
 
 .testimonial .testimonial-arrow-down {
-	border-top-color: #e5529b;
+	border-top-color: #E9684E;
 }
 
 html .testimonial-primary blockquote {
-	background: #e5529b;
+	background: #E9684E;
 }
 
 html .testimonial-primary .testimonial-arrow-down {
-	border-top-color: #e5529b;
+	border-top-color: #E9684E;
 }
 
 html .testimonial-primary.testimonial-style-7 {
-	background: #e5529b;
+	background: #E9684E;
 }
 
 html .testimonial-quotes-primary blockquote:before,
@@ -5325,7 +5325,7 @@ html .featured-boxes-full-scale > .featured-box-full-primary:nth-child(3) {
 }
 
 html .featured-boxes-full-scale > .featured-box-full-primary:nth-child(4) {
-	background-color: #e5529b;
+	background-color: #E9684E;
 }
 
 html .featured-boxes-full-scale > .featured-box-full-primary:nth-child(5) {
