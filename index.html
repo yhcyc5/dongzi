@@ -72,7 +72,7 @@
 										<nav class="collapse">
 											<ul class="nav nav-pills" id="mainNav">
 												<li class="ml-2">
-													<a class="text-4 text-decoration-none active" href="#">
+													<a class="text-4 text-decoration-none active" href="index.html">
 														首頁
 													</a>
 												</li>
@@ -135,7 +135,7 @@
 
 			</div>
 
-			<!-- 白底 -->
+			<!-- 白底:頁面區塊選單 -->
 			<section class="section bg-color-light position-relative border-0 pt-0 m-0 mt-5">
 				<svg class="custom-section-curved-top-3" width="100%" height="298" xmlns="http://www.w3.org/2000/svg">
 					<path id="svg_2" fill="#FFF" stroke="#000" stroke-width="0"
@@ -143,30 +143,33 @@
 				</svg>
 
 				<!-- 頁面區塊選單 -->
-				<div class="container position-relative z-index-1 mb-5">
+				<div class="container position-relative z-index-1">
 					<div class="row position-relative z-index-1 text-center justify-content-center appear-animation"
 						data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="100">
 						<div class=" col-md-10 col-lg-10">
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">好康專區</button>
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">行政公告</button>
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">贊助運動</button>
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">補助申請</button>
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">運動典藏</button>
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">體育基金會</button>
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">產業動態</button>
-							<button type="button"
-								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">榮耀時刻</button>
+							<a href="#firstarea"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">好康專區</a>
+							<a href="#firstarea"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">行政公告</a>
+							<a href="#sponsorship"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">贊助運動</a>
+							<a href="#subsidy"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">補助申請</a>
+							<a href="#more"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">運動典藏</a>
+							<a href="#more"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">體育基金會</a>
+							<a href="#more"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">產業動態</a>
+							<a href="#award"
+								class="btn btn-outline btn-rounded btn-primary btn-xl text-4 font-weight-bold m-1">榮耀時刻</a>
 						</div>
 					</div>
 				</div>
+			</section>
 
+			<!-- 白底:好康專區、行政公告 -->
+			<section id="firstarea" class="section bg-color-light position-relative border-0 pt-0 m-0 mt-5">
 				<div class="container position-relative z-index-2 pb-5 mb-5">
 					<div class="custom-circle custom-circle-medium custom-circle-pos-17 appear-animation"
 						data-appear-animation="expandIn" data-appear-animation-delay="200">
@@ -189,8 +192,8 @@
 
 					<div class="container py-2">
 						<div class="row">
-							<div class="col-lg-4">
-								<!-- 白底：好康專區 -->
+							<div id="coupon" class="col-lg-4">
+								<!-- 好康專區 -->
 								<div class="container py-2">
 									<div class="row justify-content-center my-3">
 										<div class="col-md-10 col-lg-8 text-center">
@@ -220,8 +223,8 @@
 								</div>
 
 							</div>
-							<div class="col-lg-8 col-md-12">
-								<!-- 白底：行政公告 -->
+							<div id="announcement" class="col-lg-8 col-md-12">
+								<!-- 行政公告 -->
 								<div class="container py-2">
 									<div class="row justify-content-center my-3">
 										<div class="col-10 col-lg-8 text-center">
@@ -336,16 +339,16 @@
 				</div>
 			</section>
 
-			<!-- 主色底：贊助 -->
-			<section class="section section-height-4 bg-color-quaternary position-relative border-0 pt-5 m-0">
+			<!-- 主色底：贊助運動 -->
+			<section id="sponsorship" class="section bg-color-quaternary position-relative border-0 m-0">
 				<svg class="custom-section-curved-top-4" width="100%" height="298" xmlns="http://www.w3.org/2000/svg">
 					<path id="svg_2" fill="#0A332D" stroke="#000" stroke-width="0"
 						d="m-16.68437,95.44889c0,0 5.33335,176.00075 660.00283,93.33373c327.33474,-41.33351 503.33549,15.3334 639.00274,35.66682c135.66725,20.33342 59.66691,9.66671 358.33487,28.33346c298.66795,18.66676 268.66829,-45.00088 382.66831,-112.00048c114.00002,-66.9996 718.31698,-59.48704 1221.66946,95.563c503.35248,155.05004 -221.83202,184.10564 -243.66935,197.60521c-21.83733,13.49958 -3008.67549,-19.83371 -3008.00467,-20.83335c-0.67082,0.99964 -30.00428,-232.33469 -10.00419,-317.66839z"
 						class="svg-fill-color-quaternary" />
 				</svg>
 
-				<div class="container py-2 position-relative z-index-1">
-					<div class="row justify-content-center my-3">
+				<div class="container position-relative z-index-1 mb-5">
+					<div class="row justify-content-center">
 						<div class="col-10 col-lg-8 text-center">
 							<div class="overflow-hidden">
 								<span class="d-block appear-animation text-color-light" data-appear-animation="maskUp"
@@ -383,49 +386,113 @@
 			</section>
 
 			<!-- 白底：補助申請 -->
-			<div class="container position-relative pb-lg-5 mb-5 mt-5">
-				<div class="custom-circle custom-circle-extra-small custom-circle-pos-24 appear-animation"
-					data-appear-animation="expandIn" data-appear-animation-delay="200">
-					<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 2000}">
-					</div>
-				</div>
-				<div class="custom-circle custom-circle-small custom-circle-pos-25 appear-animation"
-					data-appear-animation="expandIn" data-appear-animation-delay="500">
-					<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 3000}">
-					</div>
-				</div>
-				<div class="custom-circle custom-circle-extra-small custom-circle-pos-26 appear-animation"
-					data-appear-animation="expandIn" data-appear-animation-delay="800">
-					<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'horizontal': true, 'transition': true, 'transitionDuration': 1500}">
-					</div>
-				</div>
-				<div class="custom-circle custom-circle-extra-small custom-circle-pos-27 custom-bg-color-grey-2"></div>
-				<div class="custom-circle custom-circle-extra-small custom-circle-pos-28 appear-animation"
-					data-appear-animation="expandIn" data-appear-animation-delay="1100">
-					<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 2500}">
-					</div>
-				</div>
-				<div class="custom-circle custom-circle-small custom-circle-pos-29 appear-animation"
-					data-appear-animation="expandIn" data-appear-animation-delay="1400">
-					<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 3500}">
-					</div>
-				</div>
-				<div class="custom-circle custom-circle-extra-small custom-circle-pos-30 appear-animation"
-					data-appear-animation="expandIn" data-appear-animation-delay="1700">
-					<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
-						data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 2000}">
-					</div>
-				</div>
+			<section id="subsidy" class="section position-relative border-0 m-0">
+				<div class="container position-relative pb-lg-5 mb-5">
 
+					<!-- 補助申請 -->
+					<div class="container position-relative z-index-1 pb-lg-4 mb-lg-5">
+						<div class="row justify-content-center">
+							<div class="col-10 col-lg-8 text-center">
+								<div class="overflow-hidden">
+									<span class="d-block appear-animation" data-appear-animation="maskUp"
+										data-appear-animation-delay="100">SUBSIDY APPLICATION</span>
+								</div>
+								<div class="overflow-hidden mb-4">
+									<h2 class="font-weight-bold text-color-quaternary text-7 mb-0 appear-animation"
+										data-appear-animation="maskUp" data-appear-animation-delay="130">各項補助申請</h2>
+								</div>
+							</div>
+						</div>
+						<div class="row pricing-table custom-pricing-table-style-1 justify-content-center mb-4">
+							<div class="col-md-6 col-lg-5">
+								<div class="plan plan-featured  text-center appear-animation"
+									data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+									<div class="plan-header bg-color-light pt-4 px-3">
+										<h4 class="text-color-secondary font-weight-bold text-6 mt-4 mb-2"
+											style="line-height:1.6">
+											機關、學校、體育團體</h4>
+									</div>
+									<div class="plan-features px-4">
+										<ul class="text-5">
+											<li style="line-height:2"><strong class="text-color-dark">學生觀賽</strong></li>
+											<li style="line-height:2"><strong class="text-color-dark">賽事轉播</strong></li>
+											<li style="line-height:2"><strong class="text-color-dark">運動觀光</strong></li>
+											<li style="line-height:2"><strong class="text-color-dark">專題研究</strong></li>
+										</ul>
+									</div>
+									<div class="plan-footer pt-3 pb-4">
+										<a href="Student.action"
+											class="btn btn-secondary btn-outline btn-rounded font-weight-semibold px-5 py-3 text-4 mb-4">前往申請</a>
+									</div>
+								</div>
+							</div>
 
-
-
-				<div class="container position-relative z-index-1 pb-lg-4 mb-lg-5">
+							<div class="col-md-6 col-lg-5">
+								<div class="plan plan-featured text-center appear-animation"
+									data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+									<div class="plan-header bg-color-light pt-4 px-3">
+										<h4 class="text-color-secondary font-weight-bold text-6 mt-4 mb-2"
+											style="line-height:1.6">
+											運動產業、民眾</h4>
+									</div>
+									<div class="plan-features px-4">
+										<ul class="text-5">
+											<li style="line-height:2"><strong class="text-color-dark">職能基準</strong></li>
+											<li style="line-height:2"><strong class="text-color-dark">創新創業</strong></li>
+											<li style="line-height:2"><strong class="text-color-dark">培訓課程</strong></li>
+											<li style="line-height:2"><strong class="text-color-dark">信用保證</strong></li>
+										</ul>
+									</div>
+									<div class="plan-footer pt-3 pb-4">
+										<a href="Student.action"
+											class="btn btn-secondary btn-outline btn-rounded font-weight-semibold px-5 py-3 text-4 mb-4">前往申請</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="custom-circle custom-circle-medium custom-circle-pos-41 bg-color-quaternary"></div>
+					<div class="custom-circle custom-circle-small custom-circle-pos-42 custom-bg-color-grey-1"></div>
+					<div class="custom-circle custom-circle-extra-small custom-circle-pos-43 custom-bg-color-grey-2">
+					</div>
+					<div class="custom-circle custom-circle-extra-small custom-circle-pos-24 appear-animation"
+						data-appear-animation="expandIn" data-appear-animation-delay="200">
+						<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
+							data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 2000}">
+						</div>
+					</div>
+					<div class="custom-circle custom-circle-small custom-circle-pos-25 appear-animation"
+						data-appear-animation="expandIn" data-appear-animation-delay="500">
+						<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
+							data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 3000}">
+						</div>
+					</div>
+					<div class="custom-circle custom-circle-extra-small custom-circle-pos-26 appear-animation"
+						data-appear-animation="expandIn" data-appear-animation-delay="800">
+						<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
+							data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'horizontal': true, 'transition': true, 'transitionDuration': 1500}">
+						</div>
+					</div>
+					<div class="custom-circle custom-circle-extra-small custom-circle-pos-27 custom-bg-color-grey-2">
+					</div>
+					<div class="custom-circle custom-circle-extra-small custom-circle-pos-28 appear-animation"
+						data-appear-animation="expandIn" data-appear-animation-delay="1100">
+						<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
+							data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 2500}">
+						</div>
+					</div>
+					<div class="custom-circle custom-circle-small custom-circle-pos-29 appear-animation"
+						data-appear-animation="expandIn" data-appear-animation-delay="1400">
+						<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
+							data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 3500}">
+						</div>
+					</div>
+					<div class="custom-circle custom-circle-extra-small custom-circle-pos-30 appear-animation"
+						data-appear-animation="expandIn" data-appear-animation-delay="1700">
+						<div class="custom-bg-color-grey-2 rounded-circle w-100 h-100" data-plugin-float-element
+							data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 2000}">
+						</div>
+					</div>
 					<div class="custom-circle custom-circle-medium custom-circle-pos-44 appear-animation"
 						data-appear-animation="expandIn" data-appear-animation-delay="200">
 						<div class="custom-bg-color-grey-1 rounded-circle w-100 h-100" data-plugin-float-element
@@ -444,72 +511,11 @@
 							data-plugin-options="{'startPos': 'bottom', 'speed': 0.3, 'transition': true, 'transitionDuration': 1500}">
 						</div>
 					</div>
-
-					<div class="row justify-content-center mt-5">
-						<div class="col-10 col-lg-8 text-center">
-							<div class="overflow-hidden">
-								<span class="d-block appear-animation" data-appear-animation="maskUp"
-									data-appear-animation-delay="100">SUBSIDY APPLICATION</span>
-							</div>
-							<div class="overflow-hidden mb-4">
-								<h2 class="font-weight-bold text-color-quaternary text-7 mb-0 appear-animation"
-									data-appear-animation="maskUp" data-appear-animation-delay="130">各項補助申請</h2>
-							</div>
-						</div>
-					</div>
-					<div class="row pricing-table custom-pricing-table-style-1 justify-content-center mb-4">
-						<div class="col-md-6 col-lg-5">
-							<div class="plan plan-featured  text-center appear-animation"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
-								<div class="plan-header bg-color-light pt-4 px-3">
-									<h4 class="text-color-secondary font-weight-bold text-6 mt-4 mb-2" style="line-height:1.6">
-										機關、學校、體育團體</h4>
-								</div>
-								<div class="plan-features px-4">
-									<ul class="text-5">
-										<li style="line-height:2"><strong class="text-color-dark">學生觀賽</strong></li>
-										<li style="line-height:2"><strong class="text-color-dark">賽事轉播</strong></li>
-										<li style="line-height:2"><strong class="text-color-dark">運動觀光</strong></li>
-										<li style="line-height:2"><strong class="text-color-dark">專題研究</strong></li>
-									</ul>
-								</div>
-								<div class="plan-footer pt-3 pb-4">
-									<a href="Student.action"
-										class="btn btn-secondary btn-outline btn-rounded font-weight-semibold px-5 py-3 text-4 mb-4">前往申請</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 col-lg-5">
-							<div class="plan plan-featured text-center appear-animation"
-								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
-								<div class="plan-header bg-color-light pt-4 px-3">
-									<h4 class="text-color-secondary font-weight-bold text-6 mt-4 mb-2" style="line-height:1.6">
-										運動產業、民眾</h4>
-								</div>
-								<div class="plan-features px-4">
-									<ul class="text-5">
-										<li style="line-height:2"><strong class="text-color-dark">職能基準</strong></li>
-										<li style="line-height:2"><strong class="text-color-dark">創新創業</strong></li>
-										<li style="line-height:2"><strong class="text-color-dark">培訓課程</strong></li>
-										<li style="line-height:2"><strong class="text-color-dark">信用保證</strong></li>
-									</ul>
-								</div>
-								<div class="plan-footer pt-3 pb-4">
-									<a href="Student.action"
-										class="btn btn-secondary btn-outline btn-rounded font-weight-semibold px-5 py-3 text-4 mb-4">前往申請</a>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
+			</section>
 
-				<div class="custom-circle custom-circle-medium custom-circle-pos-41 bg-color-quaternary"></div>
-				<div class="custom-circle custom-circle-small custom-circle-pos-42 custom-bg-color-grey-1"></div>
-				<div class="custom-circle custom-circle-extra-small custom-circle-pos-43 custom-bg-color-grey-2"></div>
-			</div>
-			<!-- 灰底 -->
-			<section class="section position-relative custom-bg-color-light-2 border-0 pt-4 m-0">
+			<!-- 灰底：更多服務 -->
+			<section id="more" class="section position-relative custom-bg-color-light-2 border-0 m-0">
 				<svg class="custom-section-curved-top-5" width="100%" height="284" xmlns="http://www.w3.org/2000/svg">
 					<path id="svg_2" fill="#eff1f3" stroke="#000" stroke-width="0"
 						d="m-30.75698,18.18081c99.6013,28.33304 337.54319,327.06425 868.97187,168.96887c265.71434,-79.04769 585.03969,-5.59538 690.67474,14.9602c105.63504,20.55559 381.87048,2.11063 555.67444,-75.27753c86.90199,-38.69407 736.04117,-78.60276 742.95015,12.26524c6.90898,90.86801 -66.08835,361.6009 -103.97283,363.40912c-37.88449,1.80823 -2793.7397,-55.67435 -2792.62804,-56.56315" />
@@ -532,7 +538,7 @@
 					</div>
 
 					<div class="row justify-content-center pb-2 mb-2">
-						<div class="col-md-7 col-lg-4 mb-0">
+						<div id="museum" class="col-md-7 col-lg-4 mb-0">
 							<div class="card border-1 custom-box-shadow-1 custom-border-radius-1 mb-4 appear-animation"
 								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
 								data-plugin-options="{'accY': -100}">
@@ -549,7 +555,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-lg-4 pt-lg-4 mt-lg-5 mb-0">
+						<div id="foundation" class="col-md-7 col-lg-4 pt-lg-4 mt-lg-5 mb-0">
 							<div class="card border-1 custom-box-shadow-1 custom-border-radius-1 mb-4 appear-animation"
 								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
 								<div class="card-body text-center p-4">
@@ -564,7 +570,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-lg-4 mb--0">
+						<div id="trend" class="col-md-7 col-lg-4 mb--0">
 							<div class="card border-1 custom-box-shadow-1 custom-border-radius-1 mb-2 appear-animation"
 								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500"
 								data-plugin-options="{'accY': -100}">
@@ -611,8 +617,8 @@
 				</div>
 			</section>
 
-			<!-- 白底 -->
-			<section class="our-blog section bg-color-light position-relative  border-0 pb-0 m-0">
+			<!-- 白底：榮耀時刻 -->
+			<section id="award" class="our-blog section bg-color-light position-relative  border-0 pb-0 m-0">
 				<svg class="custom-section-curved-top-6" width="100%" height="600px" xmlns="http://www.w3.org/2000/svg">
 					<path id="svg_1"
 						d="m-12.66406,442.40068c352.72654,-76.36348 565.45337,5.45453 696.36219,19.99996c130.90882,14.54542 270.90852,-23.63632 367.27196,-47.27263c96.36344,-23.63631 379.99921,-154.54513 527.27163,-209.09047c147.27242,-54.54535 381.813,-92.55755 406.36076,-99.00598c12.27388,-3.22421 917.96684,-113.93032 715.00991,10.61478c-202.95693,124.5451 -210.46055,521.28714 -198.64021,540.29354c11.82034,19.0064 -2500.90899,-15.53962 -2500.0019,-16.36399c-0.90709,0.82437 -9.99798,-180.99343 -9.09089,-181.8178"
@@ -705,8 +711,6 @@
 							</div>
 						</div>
 					</div>
-
-
 				</div>
 
 				<!-- 舞台左右背景圖 -->

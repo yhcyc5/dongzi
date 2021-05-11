@@ -741,3 +741,19 @@ html.sticky-header-active #header.header-transparent .header-body:not(.header-bo
 .custom-social-icons-style-1 li:hover a {
 	color: #333 !important;
 }
+
+
+/*
+* Section
+
+section {
+	position: relative;
+	padding: 120px 0 40px 0 !important;
+}
+*/
+
+:target:before {
+	content: "";
+	display: block;
+	height: 100px;
+}
